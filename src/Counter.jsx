@@ -67,24 +67,38 @@
 
 
 
-import React, { useState,useEffect } from 'react'
+// import React, { useState,useEffect } from 'react'
 
-function Counter() {
-  const[count,setCount]=useState(0)
-  useEffect(()=>{
-    console.log('Mounting...');
+// function Counter() {
+//   const[count,setCount]=useState(0)
+//   useEffect(()=>{
+//     console.log('Mounting...');
 
-//   })
-//   return()=>{
-//     console.log('Unmounting...');
+// //   })
+// //   return()=>{
+// //     console.log('Unmounting...');
   
   
-// },[count];
-}
+// // },[count];
+// }
+//   return (
+//     <div>
+//       <button onClick={()=>setCount(count+1)}>Increment</button>
+//       <h1>Hello I am component{count}</h1>
+//     </div>
+//   );
+// }
+
+// export default Counter;
+
+
+
+import React from 'react'
+
+function Counter({title,count}) {
   return (
     <div>
-      <button onClick={()=>setCount(count+1)}>Increment</button>
-      <h1>Hello I am component{count}</h1>
+      <h1>{title} {count}</h1>
     </div>
   );
 }

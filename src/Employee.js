@@ -6,7 +6,7 @@ function Employee(props) {
       <h1>Name : {props.name},Age :{props.age}</h1>
 
     </div>
-  )
+  );
 }
 
-export default Employee
+export default Employee;

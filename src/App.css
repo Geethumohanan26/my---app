@@ -1,7 +1,15 @@
-h1{
-    color:black;
-    background-color: aqua;
+.task input [type=checkbox]{
+    visibility: visible;
+    display: inline inline-block;
+    opacity: 1;
+    width: 18px;
+    height: 28px;
 }
+.task span{
+    padding-left: 20px;
+}
+
+
 
 
 
