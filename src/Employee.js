@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Employee(props) {
+function Employee({name,age}) {
   return (
     <div>
-      <h1>Name : {props.name},Age :{props.age}</h1>
-
+      <h2>{name}</h2>
+      <p>{age}</p>
     </div>
   );
 }

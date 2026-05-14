@@ -93,7 +93,7 @@
 
 
 
-import React from 'react'
+import React from 'react';
 
 function Counter({title,count}) {
   return (
@@ -104,4 +104,3 @@ function Counter({title,count}) {
 }
 
 export default Counter;
-
